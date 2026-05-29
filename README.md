@@ -42,7 +42,7 @@ To build the game from source:
 
   Refer to the file
   
-    📄 final version/Compilation Guide.docx
+    📄 Compilation Guide.docx
 
   for detailed build instructions
 
@@ -52,18 +52,17 @@ To build the game from source:
 
 ```bash
 ├── Dungeon-2D-game-OOP/
-│   ├── Updated with enemies/        # Archived files of earlier testing versions
-│   ├── testMain.exe                 # Pre-compiled executable
-│   ├── final version/               # Final version of code
-│   │   ├── assets/                  # All visual and audio assets used
-│   │   ├── lib/                   
-│   │   ├── src/                     # All header and cpp files
-│   │   ├── .vscode/
-│   │   ├── Compilation Guide.docx   # Detailed build instructions
-│   │   ├── HighScore.txt
-│   │   ├── MakeFile
-│   │   ├── main.code-workspace
-│   └── README.md
+│   ├── Archive/                    # Archived files of earlier testing versions
+│   ├── assets/                     # All visual and audio assets used
+│   ├── lib/                        # External libraries and dependencies
+│   ├── src/                        # All header and source (.cpp) files
+│   ├── .vscode/                    # VS Code configuration files
+│   ├── Compilation Guide.docx      # Detailed build instructions
+│   ├── HighScore.txt               # Stores player high scores
+│   ├── main.code-workspace         # VS Code workspace configuration
+│   ├── Makefile                    # Build automation file
+│   ├── README.md                   # Project documentation
+│   └── testMain.exe                # Pre-compiled executable
 ```
 ---
 
